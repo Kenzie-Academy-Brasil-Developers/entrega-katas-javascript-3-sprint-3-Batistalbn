@@ -11,7 +11,6 @@ function showResults(x) {
 }
 
 function kata1() {
-    // implemente o código do kata 1 aqui
     const numeros = [];
     for (let i = 1; i <= 25; i++) {
         numeros.push(i);
@@ -21,7 +20,6 @@ function kata1() {
 kata1();
 
 function kata2() {
-    // implemente o código do kata 2 aqui
     const numeros = [];
     for (let i = 25; i > 0; i--) {
         numeros.push(i);
@@ -32,7 +30,6 @@ kata2();
 
 
 function kata3() {
-    // implemente o código do kata 3 aqui
     const numeros = [];
     for (let i = -1; i >= -25; i--) {
         numeros.push(i);
@@ -42,7 +39,6 @@ function kata3() {
 kata3();
 
 function kata4() {
-    // implemente o código do kata 4 aqui
     const numeros = [];
     for (let i = -25; i <= -1; i++) {
         numeros.push(i);
@@ -52,7 +48,6 @@ function kata4() {
 kata4();
 
 function kata5() {
-    // implemente o código do kata 5 aqui
     const numeros = [];
     for (let i = 25; i >= -25; i -= 2) {
         numeros.push(i);
@@ -62,7 +57,6 @@ function kata5() {
 kata5();
 
 function kata6() {
-    // implemente o código do kata 6 aqui
     const numeros = [];
     for (let i = 1; i <=100; i++){
         if(i % 3 == 0) {
@@ -74,7 +68,6 @@ function kata6() {
 kata6();
 
 function kata7() {
-    // implemente o código do kata 7 aqui
     const numeros = [];
     for (let i = 1; i <=100; i++){
         if(i % 7 == 0) {
@@ -87,7 +80,6 @@ kata7();
 
 
 function kata8() {
-    // implemente o código do kata 8 aqui
     const numeros = [];
     for (let i = 100; i >=0; i--){
         if(i % 3 == 0 || i % 7 == 0) {
@@ -99,7 +91,6 @@ function kata8() {
 kata8();
 
 function kata9() {
-    // implemente o código do kata 9 aqui
     const numeros = [];
     for (let i = 0; i <= 100; i += 5){
         if(i % 2 !== 0) {
@@ -112,7 +103,6 @@ kata9();
 
 
 function kata10() {
-    // implemente o código do kata 10 aqui
     const exibir = [];
     for (let i = 0; i < sampleArray.length; i++) {
         exibir.push(sampleArray[i]);
@@ -123,7 +113,6 @@ kata10();
 
 
 function kata11() {
-    // implemente o código do kata 11 aqui
     const exibir = [];
     for (let i = 0; i < sampleArray.length; i++) {
         if (sampleArray[i] % 2 == 0){
@@ -135,7 +124,6 @@ function kata11() {
 kata11();
 
 function kata12() {
-    // implemente o código do kata 12 aqui
     const exibir = [];
     for (let i = 0; i < sampleArray.length; i++) {
         if (sampleArray[i] % 2 !== 0){
@@ -148,7 +136,6 @@ kata12();
 
 
 function kata13() {
-    // implemente o código do kata 13 aqui
     const exibir = [];
     for (let i = 0; i < sampleArray.length; i++) {
         if (sampleArray[i] % 8 == 0){
@@ -160,7 +147,6 @@ function kata13() {
 kata13();
 
 function kata14() {
-    // implemente o código do kata 14 aqui
     const exibir = [];
     for (let i = 0; i < sampleArray.length; i++) {
         const quadrado = sampleArray[i] ** 2;
@@ -171,7 +157,6 @@ function kata14() {
 kata14();
 
 function kata15() {
-    // implemente o código do kata 15 aqui
     let soma = 0;
     for (let i = 1; i <= 20; i++) {
         soma = soma + i;
@@ -181,7 +166,6 @@ function kata15() {
 kata15();
 
 function kata16() {
-    // implemente o código do kata 16 aqui
     let soma = 0;
     for (let i = 0; i < sampleArray.length; i++) {
         soma = soma + sampleArray[i];
@@ -190,9 +174,7 @@ function kata16() {
 }
 kata16();
 
-
 function kata17() {
-    // implemente o código do kata 17 aqui
     let menor = sampleArray[0];
     for (let i = 0; i < sampleArray.length; i++){
         if (sampleArray[i] < menor){
@@ -204,7 +186,6 @@ function kata17() {
 kata17();
 
 function kata18() {
-    // implemente o código do kata 18 aqui
     let maior = sampleArray[0];
     for (let i = 0; i < sampleArray.length; i++){
         if (sampleArray[i] > maior){
